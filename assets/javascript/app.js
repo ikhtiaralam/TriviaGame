@@ -14,7 +14,7 @@ $(document).on('click', '.answer-button', function(e) {
 });
 
 $(document).on('click', '#start', function(e) {
-  $('#subwrapper').prepend('<h2>Time Remaining: <span id="counter-number">30</span> Seconds</h2>');
+  $('#subwrapper').prepend('<h2>Time Remaining: <span id="counter-number">15</span> Seconds</h2>');
   game.loadQuestion();
 });
 
